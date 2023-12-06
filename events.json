@@ -1,0 +1,50 @@
+{
+  "event": {
+    "name": "Hidden Potential (AGL)",
+    "type": "Weekly",
+    "tags": ["TagBonus", "TagStory", "TagDB", "TagStrike", "TagDokkan", "TagSpecial", "TagLimit", "TagPrime", "TagZ-Battle", "TagChallenge", "TagLimited", "TagLimited-Attempts"],
+    "orbTypes": ["Pot orb AGL large", "Pot orb TEQ large", "Pot orb INT large", "Pot orb STR large", "Pot orb PHY large"],
+    "description": "Hidden Potential All open",
+    "releaseDate": {
+      "Japan": "13 Dec 2021",
+      "Global": "8 Feb 2022"
+    },
+    "weakness": "No Weakness",
+    "increasedDrop": "No increased drop",
+    "noTacticsAvailable": true
+  },
+  "details": {
+    "difficulty": "Z-Hard",
+    "boss": "AGL Hidden Potential Event",
+    "type": "ThumbZ-Hard",
+    "rewards": {
+      "rankExperience": 1000,
+      "characterExperience": 20000,
+      "zeni": 27500,
+      "drops": [
+        {"item": "Thumb pot orb 00001", "quantity": "x350-450"},
+        {"item": "Thumb pot orb 00006", "quantity": "x200-250"},
+        {"item": "Thumb pot orb 00011", "quantity": "x20-25"}
+      ]
+    },
+    "dropRate": "1",
+    "cards": [
+      {"id": "1002240", "type": "AGL", "thumbnail": "thumb"},
+      {"id": "1003440", "type": "AGL", "thumbnail": "thumb"},
+      {"id": "1004950", "type": "AGL", "thumbnail": "thumb"}
+    ]
+  },
+  "requirements": {
+    "playerRank": 50,
+    "clearedEvent": "Super Saiyan Goku, Stage 2 of the event An Epic Showdown, on Z-HARD"
+  },
+  "additionalInformation": {
+    "info": "Hidden Potential System",
+    "paths": {
+      "left": "Small Orbs",
+      "middle": "Medium Orbs",
+      "right": "Large Orbs"
+    },
+    "landingSpace": "By landing on the ?space you can get additional orbs"
+  }
+}
