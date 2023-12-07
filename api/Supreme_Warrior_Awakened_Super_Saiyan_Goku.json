@@ -1,0 +1,92 @@
+{
+  "character": {
+    "name": "Supreme Warrior Awakened Super Saiyan Goku",
+    "level": 80,
+    "superAttackLevel": 1,
+    "rarity": "SSR",
+    "type": "AGL",
+    "cost": 16,
+    "id": 1001,
+    "releaseDate": {
+      "japanServer": "30 Jan 2015",
+      "globalServer": "Prior to 30 Oct 2015"
+    },
+    "disambiguation": "Special Skill",
+    "boostType": "Skill",
+    "boostEffect": {
+      "raiseKi": "Raise Ki",
+      "raiseATK": "Raise ATK"
+    },
+    "dokkanStage": "Dokkan",
+    "eza": null,
+    "leaderSkill": {
+      "types": ["AGL", "INT", "PHY"],
+      "effect": "Type ATK +30%"
+    },
+    "superAttack": {
+      "name": "Kamehameha",
+      "damage": "Causes extreme damage to enemy"
+    },
+    "passiveSkill": {
+      "name": "Berserker's Rage",
+      "effect": "Ki +5 when HP is 30% or below"
+    },
+    "linkSkills": [
+      "Blazing Battle",
+      "Super Saiyan",
+      "Saiyan Warrior Race",
+      "Golden Warrior",
+      "Kamehameha"
+    ],
+    "categories": [
+      "Pure Saiyans",
+      "Goku's Family",
+      "Super Saiyans",
+      "Kamehameha",
+      "Turtle School",
+      "Bond of Friendship",
+      "Bond of Parent and Child",
+      "Earth-Bred Fighters"
+    ],
+    "kiMeter": "KiMeter 3 Green",
+    "stats": {
+      "base": {
+        "HP": 2210,
+        "Atk": 1898,
+        "Def": 1050
+      },
+      "max": {
+        "HP": 8282,
+        "Atk": 7136,
+        "Def": 3857
+      },
+      "maxStarLocked": {
+        "HP": 10282,
+        "Atk": 9136,
+        "Def": 5857
+      },
+      "maxStarReleased": {
+        "HP": 13282,
+        "Atk": 12136,
+        "Def": 8857
+      }
+    },
+    "acquisition": "Rare summon",
+    "awakeningMaterials": {
+      "medals": {
+        "Gregory": 50,
+        "Grandpa Gohan": 20,
+        "Korin": 10,
+        "Kibito": 3,
+        "Old Kai": 1
+      }
+    },
+    "details": {
+      "kiMultiplier": "115%",
+      "farmableCards": ["Card 1005540", "Card 1004680"],
+      "treasureItems": {
+        "purchasedCard": "Card 1004680"
+      }
+    }
+  }
+}
