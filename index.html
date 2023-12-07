@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokkan Database</title>
+</head>
+<body>
+
+<pre id="characterData"></pre>
+
+<script>
+    function displayData() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParam = urlParams.get('search');
+
+        // Check if a search parameter is provided
+        if (searchParam) {
+            const apiUrl = `https://mindsetpro.github.io/DokkanDB/api/${searchParam}.json`;
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Display the raw JSON data
+                    document.getElementById('characterData').innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('characterData').innerText = 'Error fetching data.';
+                });
+        } else {
+            // If no search parameter is provided, display a message
+            document.getElementById('characterData').innerText = 'Please provide a search parameter in the URL.';
+        }
+    }
+
+    // Call the function when the page loads
+    displayData();
+</script>
+
+</body>
+</html>
