@@ -1,0 +1,87 @@
+{
+  "character": {
+    "name": "Pride Regained Super Saiyan Vegeta",
+    "level": 80,
+    "superAttackLevel": 1,
+    "rarity": "SSR",
+    "type": "TEQ",
+    "cost": 16,
+    "id": 1002,
+    "releaseDate": {
+      "japanServer": "30 Jan 2015",
+      "globalServer": "Prior to 30 Oct 2015"
+    },
+    "disambiguation": "Origin of art",
+    "boostType": "Skill",
+    "boostEffect": {
+      "raiseKi": "Raise Ki",
+      "raiseATK": "Raise ATK"
+    },
+    "dokkanStage": "Dokkan",
+    "eza": null,
+    "leaderSkill": {
+      "types": ["TEQ", "INT", "STR"],
+      "effect": "Type ATK +30%"
+    },
+    "superAttack": {
+      "name": "Big Bang Attack",
+      "damage": "Causes extreme damage to enemy"
+    },
+    "passiveSkill": {
+      "name": "Saiyan's Pride",
+      "effect": "Ki +2 and ATK +2000 when HP is 30% or below"
+    },
+    "linkSkills": [
+      "Blazing Battle",
+      "Super Saiyan",
+      "Saiyan Warrior Race",
+      "Golden Warrior",
+      "Royal Lineage"
+    ],
+    "categories": [
+      "Pure Saiyans",
+      "Vegeta's Family",
+      "Super Saiyans",
+      "Androids/Cell Saga",
+      "Gifted Warriors",
+      "Mastered Evolution"
+    ],
+    "kiMeter": "KiMeter 4 Green",
+    "stats": {
+      "base": {
+        "HP": 2135,
+        "Atk": 1763,
+        "Def": 1185
+      },
+      "max": {
+        "HP": 7920,
+        "Atk": 6700,
+        "Def": 4325
+      },
+      "maxStarLocked": {
+        "HP": 9920,
+        "Atk": 8700,
+        "Def": 6325
+      },
+      "maxStarReleased": {
+        "HP": 12920,
+        "Atk": 11700,
+        "Def": 9325
+      }
+    },
+    "acquisition": "Rare summon",
+    "awakeningMaterials": {
+      "medals": {
+        "Gregory": 50,
+        "Mr Popo": 20,
+        "Babidi": 10,
+        "North Kai": 3,
+        "Supreme Kai": 1
+      }
+    },
+    "details": {
+      "kiMultiplier": "130%",
+      "farmableCards": ["Card 1005550"]
+    }
+  }
+}
